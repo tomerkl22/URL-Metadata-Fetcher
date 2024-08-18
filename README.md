@@ -7,9 +7,9 @@ The application display the results on the screen.
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in the interactive watch mode.
 
