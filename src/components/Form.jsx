@@ -14,7 +14,7 @@ function Form() {
 
   const handleSubmit = async () => {
     try {
-        const response = await axios.post('http://localhost:5000/fetch-metadata', { urls });
+        const response = await axios.post('https://metadata-fetcher-api.onrender.com/fetch-metadata', { urls });
         setMetadata(response.data);
         console.log(response.data);
         setError('');
